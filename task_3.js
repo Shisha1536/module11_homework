@@ -1,6 +1,6 @@
-function sum(x) {
+function getSum(x) {
     return function(y) {
         return x + y;
     };
 }
-console.log(sum(5)(3));
+console.log(getSum(5)(3));
